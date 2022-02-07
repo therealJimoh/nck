@@ -11,5 +11,7 @@ a {
 }
 
 .hr {
-  
+  border-top: .9px solid #212121;
+  width: 90%;
+  margin: 30px auto 0;
 }

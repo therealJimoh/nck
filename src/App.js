@@ -1,5 +1,5 @@
 import "./App.css";
-import { Navbar } from "./components";
+import { Navbar, PaymentCards } from "./components";
 
 
 const Hr = () => (
@@ -13,6 +13,8 @@ function App() {
         <Navbar />
       </div>
       <Hr />
+      <PaymentCards />
+      
     </div>
   );
 }

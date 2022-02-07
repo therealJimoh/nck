@@ -1,0 +1,32 @@
+.nck__paymentcards {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nck__paymentcards-text h2 {
+    font-family: var(--font-family);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 21px;
+    margin: 20px 0 9px 0;
+}
+
+.nck__paymentcards-text p {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+.nck__paymentcards-cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.nck__paymentcards-cards img {
+    width: 65px;
+    margin: 0 .8rem;
+}
