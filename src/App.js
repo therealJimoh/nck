@@ -1,9 +1,18 @@
-import './App.css';
+import "./App.css";
+import { Navbar } from "./components";
+
+
+const Hr = () => (
+    <div className="hr"></div>
+);
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello Nck</h1>
+      <div className="navbar__container">
+        <Navbar />
+      </div>
+      <Hr />
     </div>
   );
 }

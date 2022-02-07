@@ -1,0 +1,35 @@
+.nck__navbar {
+  display: flex;
+  padding: 1.5rem 0.8rem;
+}
+
+.nck__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nck__navbar-links-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+
+.nck__navbar-links-container p {
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+  margin: 0 1rem;
+  color: #242f36;
+}
+
+.nck__navbar-links-profile {
+    margin: 0 1.5rem;
+}
+
+.nck__navbar-links-profile img {
+    width: 55px;
+}
