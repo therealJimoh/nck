@@ -1,5 +1,6 @@
 import "./App.css";
 import { Navbar, PaymentCards } from "./components";
+import { PaymentInfo } from "./containers";
 
 
 const Hr = () => (
@@ -14,7 +15,7 @@ function App() {
       </div>
       <Hr />
       <PaymentCards />
-      
+      <PaymentInfo />
     </div>
   );
 }

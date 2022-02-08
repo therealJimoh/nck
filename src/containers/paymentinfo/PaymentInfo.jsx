@@ -1,12 +1,14 @@
-import React from "react";
-import './paymentinfo.css';
+import React, { Component } from "react";
 
-const PaymentInfo = () => {
-  return (
-    <>
-      <h1>Payment Info</h1>
-    </>
-  );
-};
+class PaymentInfo extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      
+    }
+  }
+
+
+}
 
 export default PaymentInfo;
