@@ -1,0 +1,15 @@
+.nck__paymentinfo {
+    display: flex;
+    width: 90%;
+    margin: 35px auto 0 auto;
+    justify-content: space-between;
+}
+
+.nck__paymentinfo-form-inputs {
+    display: flex;
+}
+
+.nck__paymentinfo-form-container {
+    display: flex;
+    flex-direction: column;
+}
