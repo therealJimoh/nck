@@ -41,7 +41,7 @@ class PaymentInfo extends Component {
           <div className="nck__paymentinfo-form">
             <form>
               <div className="nck__paymentinfo-form-wrapper">
-                <div className="nck__payment-form-inputs">
+                <div className="nck__paymentinfo-form-inputs">
                   <div className="nck__paymentinfo-input-flex1">
                     <div className="nck__paymentinfo-form-container">
                       <label htmlFor="Credit Card Number">
@@ -50,24 +50,12 @@ class PaymentInfo extends Component {
                       <input
                         type="tel"
                         name="number"
-                        maxlength="16"
+                        maxLength="19"
                         placeholder="Card Number"
                         onChange={this.handleInputChange}
                         onFocus={this.handleInputFocus}
                       />
                     </div>
-                    <div className="nck__paymentinfo-form-container">
-                      <label htmlFor="Expiration date">Expiration date</label>
-                      <input
-                        type="tel"
-                        name="expiry"
-                        placeholder="Expiry date"
-                        onChange={this.handleInputChange}
-                        onFocus={this.handleInputFocus}
-                      />
-                    </div>
-                  </div>
-                  <div className="nck__paymentinfo-input-flex2">
                     <div className="nck__paymentinfo-form-container">
                       <label htmlFor="Security code">Security code</label>
                       <input
@@ -78,6 +66,19 @@ class PaymentInfo extends Component {
                         onFocus={this.handleInputFocus}
                       />
                     </div>
+                  </div>
+                  <div className="nck__paymentinfo-input-flex2">
+                    <div className="nck__paymentinfo-form-container">
+                      <label htmlFor="Expiration date">Expiration date</label>
+                      <input
+                        type="tel"
+                        name="expiry"
+                        placeholder="Expiry date"
+                        onChange={this.handleInputChange}
+                        onFocus={this.handleInputFocus}
+                      />
+                    </div>
+
                     <div className="nck__paymentinfo-form-container">
                       <label htmlFor="Postal Code">Postal code</label>
                       <input
@@ -91,15 +92,13 @@ class PaymentInfo extends Component {
                   </div>
                 </div>
                 <div className="nck__paymentinfo-checkbox">
-                  <label className="nck__paymentinfo-checkbox-container">
+                  <label className="nck__paymentinfo-checkbox-label">
                     <input type="radio" checked="checked" name="radio" />
                     <span className="nck__paymentinfo__checkbox-checkmark"></span>
                   </label>
-                  <p> Use this card for next purchase </p>
+                  <p> Use this card for next time purchase </p>
                 </div>
-                <div className="nck__paymentinfo-form-submit">
-                  <input type="submit" value="Add Card" />
-                </div>
+                <input type="submit" value="Add Card" />
               </div>
             </form>
           </div>

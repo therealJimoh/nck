@@ -1,6 +1,6 @@
 import "./App.css";
 import { Navbar, PaymentCards } from "./components";
-import { PaymentInfo } from "./containers";
+import { CompletePay, PaymentInfo, Total } from "./containers";
 
 
 const Hr = () => (
@@ -16,6 +16,10 @@ function App() {
       <Hr />
       <PaymentCards />
       <PaymentInfo />
+      <Hr />
+      <Total />
+      <Hr />
+      <CompletePay />
     </div>
   );
 }

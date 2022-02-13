@@ -20,6 +20,8 @@ input {
   outline: none;
 }
 
-label {
-  margin-bottom: 5px;
+label, input {
+  margin-bottom: 7px;
+  font-family: var(--font-family);
+  font-size: 14px;
 }

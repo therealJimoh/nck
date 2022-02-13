@@ -1,0 +1,24 @@
+.nck__totalcard {
+    display: flex;
+    width: 90%;
+    margin: 20px auto 0 auto
+}
+
+.nck__totalcard-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nck__totalcard-container h6 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 600 ;
+}
+
+.nck__totalcard-container span {
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: #CCCCCC;
+}
+

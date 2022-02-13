@@ -1,15 +1,66 @@
 .nck__paymentinfo {
-    display: flex;
-    width: 90%;
-    margin: 35px auto 0 auto;
-    justify-content: space-between;
+  display: flex;
+  width: 90%;
+  margin: 35px auto 0 auto;
+  justify-content: space-between;
+}
+
+.nck__paymentinfo-form {
+  display: flex;
+  width: 50%;
+}
+
+form {
+  width: 100%;
 }
 
 .nck__paymentinfo-form-inputs {
-    display: flex;
+  display: flex;
+}
+
+.nck__paymentinfo-input-flex1 {
+  flex: 1;
+  margin-right: 45px;
+}
+
+.nck__paymentinfo-input-flex2 {
+  flex: 1;
 }
 
 .nck__paymentinfo-form-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="tel"] {
+  background: #f7f7f7;
+  border: 1.5px solid #b2beb5;
+  border-radius: 3px;
+  padding: 12px 15px;
+}
+
+.nck__paymentinfo-checkbox {
+  display: flex;
+}
+
+.nck__paymentinfo-checkbox p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.nck__paymentinfo-checkbox-label {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 13px;
+  background: #0276fd;
+  border-radius: 3px;
+  border: none;
+  color: #f7f7f7;
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 400;
 }
